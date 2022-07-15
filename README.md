@@ -1,4 +1,4 @@
-Bem-vindo(a) ao meu primeiro portfólio
+Bem-vindo(a) ao meu primeiro portfólio!
 
 Nesse projeto estão sendo usadas as linguagens HTML e CSS, e posteriormente será usada a linguagem de programação JavaScript.
 

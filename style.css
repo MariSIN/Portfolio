@@ -20,8 +20,11 @@ p {
   text-align: center;
   font-family: Chivo;
   font-size: 20px;
-  margin: 20px 200px;
-  justify-content: center;
+  max-height: 500px;
+  max-width: 1000px;
+  
+  margin: 0px auto;
+ 
 }
 
 #eu {
@@ -29,7 +32,7 @@ p {
   max-height: 400px;
   max-width: 400px;
   display: block;
-  margin: 0px auto;
+  margin: 80px auto;
 }
 
 .underline {

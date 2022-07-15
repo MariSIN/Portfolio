@@ -1,0 +1,36 @@
+body {
+  background-color: #fff0f5;
+}
+
+h1 {
+  font-family: Satisfy;
+  font-size: 54px;
+  text-align: center;
+}
+
+h2 {
+  font-family: Saira Condensed;
+  font-size: 24px;
+  text-align: center;
+}
+
+p {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-family: Chivo;
+  font-size: 20px;
+  margin: 50px 400px;
+}
+
+#eu {
+  border-radius: 100%;
+  max-height: 400px;
+  max-width: 400px;
+  display: block;
+  margin: 0px auto;
+}
+
+.underline {
+  text-decoration: underline;
+}

@@ -20,7 +20,8 @@ p {
   text-align: center;
   font-family: Chivo;
   font-size: 20px;
-  margin: 50px 400px;
+  margin: 20px 200px;
+  justify-content: center;
 }
 
 #eu {

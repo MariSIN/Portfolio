@@ -22,7 +22,7 @@ p {
   font-size: 20px;
   max-height: 500px;
   max-width: 1000px;
-  
+  line-height: 30px;
   margin: 0px auto;
  
 }
@@ -32,7 +32,7 @@ p {
   max-height: 400px;
   max-width: 400px;
   display: block;
-  margin: 80px auto;
+  margin: 40px auto;
 }
 
 .underline {

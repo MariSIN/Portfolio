@@ -1,3 +1,12 @@
+nav ul li,
+a {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  margin-right: 90px;
+  color: #39115f;
+}
+
 body {
   background-color: #fff0f5;
 }

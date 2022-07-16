@@ -1,10 +1,17 @@
 nav ul li,
 a {
+  font-family: Saira Condensed;
+  font-size: 18px;
   text-decoration: none;
   display: inline-block;
-  position: relative;
-  margin-right: 90px;
-  color: #39115f;
+  margin-right: 93px;
+  color: #a50daa;
+}
+
+.nav-bar li:hover {
+  -webkit-text-stroke: 1px #8e6db3;
+  transition-timing-function: ease-in-out;
+  max-width: max-content;
 }
 
 body {

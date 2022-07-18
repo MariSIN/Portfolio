@@ -1,3 +1,7 @@
+header {
+  border-bottom: #ddccf1 1px solid;
+}
+
 nav ul li,
 a {
   font-family: Saira Condensed;

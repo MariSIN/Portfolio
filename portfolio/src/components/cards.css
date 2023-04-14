@@ -2,38 +2,43 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	height: 300px;
+	height: 330px;
 	width: 600px;
 	margin-top: 40px;
 	color: #b7a1b3;
-    background-color:  #0f000438;
-    transition: 0.5s;
+	background-color: #0f000438;
+	transition: 0.5s;
 }
-  
 
 .card:hover {
-    transform:translateY(-10px);
-    box-shadow: 4px 3px 0px #F4235A;
+	transform: translateY(-10px);
+	box-shadow: 4px 3px 0px #f4235a;
 }
 
 .ant-card-head-title {
-    font-size: 24px;
-    color: #F4235A;
-  }
+	font-size: 24px;
+	color: #f4235a;
+}
 
 .ant-card-head {
-    height: 50px;
-  }
+	height: 50px;
+}
+
+.ant-list {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
 
 .ant-list-bordered {
-    background-color:  #f4235b05;
-    border-color:  #fd92ae56;
-  }
+	background-color: #f4235b05;
+	border-color: #fd92ae56;
+}
 
 .ant-list-items .ant-list-item {
-    color:#e7c8d0cd
+	color: #e7c8d0cd;
 }
 
 .ant-list-header div {
-    color: #f4235be2;
+	color: #f4235be2;
 }

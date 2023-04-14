@@ -30,9 +30,8 @@ export default function cards() {
                         headStyle={{ borderBottom: '2px solid #fd92aecd' }}
                         >
 						<p style={{ fontSize: 15, marginBottom: '20px' }}>
-							Este projeto é um app de receitas que foi desenvolvido em grupo. O
-							layout tem como foco dispositivos móveis, mas tem design
-							responsivo para telas maiores também.
+							App de receitas que foi desenvolvido em grupo. O
+							layout tem como foco dispositivos móveis e design responsivo.
 						</p>
 						<List
 							header={<div style={{ height: 15 }}>Tecnologias</div>}
@@ -60,7 +59,7 @@ export default function cards() {
                         headStyle={{ borderBottom: '2px solid #fd92aecd' }}
 						className='card'>
 						<p style={{ fontSize: 15, marginBottom: '20px' }}>
-							Este projeto é um jogo de perguntas e respostas baseado no jogo
+							Jogo de perguntas e respostas baseado no jogo
 							Trivia. Ele foi desenvolvido em grupo.
 						</p>
 						<List
@@ -89,7 +88,7 @@ export default function cards() {
 						bordered={false}
 						className='card'>
 						<p style={{ fontSize: 15, marginBottom: '20px' }}>
-							Neste projeto foi desenvolvido um carrinho de compras onde foram
+							Carrinho de compras onde foram
 							consumidos dados diretamente de uma API e o desenvolvimento foi
 							orientado a testes (TDD).
 						</p>
@@ -119,7 +118,7 @@ export default function cards() {
 						bordered={false}
 						className='card'>
 						<p style={{ fontSize: 15, marginBottom: '20px' }}>
-							Este é um projeto de loja online de itens medievais, utilizando
+							Loja online de itens medievais, utilizando
 							Typescript, no formato de uma API.
 						</p>
 						<List
@@ -149,9 +148,9 @@ export default function cards() {
 						bordered={false}
 						className='card'>
 						<p style={{ fontSize: 15, marginBottom: '20px' }}>
-							Foi utilizado Typescript e os princípios de POO em uma estrutura
+							Estrutura
 							de jogos de interpretação de papéis, mais conhecidos como jogos
-							RPG (Role Playing Game).
+							RPG (Role Playing Game). Foi utilizado Typescript e os princípios de POO 
 						</p>
 						<List
 							header={<div style={{ height: 15 }}>Tecnologias</div>}
@@ -175,13 +174,12 @@ export default function cards() {
 				</Col>
 				<Col>
 					<Card
-						title='Trybers and Dragons'
+						title='Trybe Futebol Clube'
                         headStyle={{ borderBottom: '2px solid #fd92aecd' }}
 						bordered={false}
 						className='card'>
 						<p style={{ fontSize: 15, marginBottom: '20px' }}>
-							O projeto consistiu em desenvolver um back-end dockerizado
-							utilizando a modelagem de dados com Sequelize.
+                        O TFC é um site informativo sobre partidas e classificações de futebol.
 						</p>
 						<List
 							header={<div style={{ height: 15 }}>Tecnologias</div>}
@@ -210,7 +208,7 @@ export default function cards() {
 						bordered={false}
 						className='card'>
 						<p style={{ fontSize: 15, marginBottom: '20px' }}>
-							No projeto, foi desenvolvida uma API e um banco de dados para a
+							API e um banco de dados para a
 							produção de conteúdo de um blog.
 						</p>
 						<List

@@ -66,7 +66,7 @@ function App() {
 				<Footer
 					style={{
 						textAlign: 'center',
-						background: '#0A0A0A',
+						background: 'black',
 					}}>
 					Ant Design ©2023 Created by Ant UED
 				</Footer>

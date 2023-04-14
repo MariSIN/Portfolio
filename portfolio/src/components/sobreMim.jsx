@@ -66,7 +66,7 @@ function SobreMim() {
 					<Cards />
 				</Col>
 			</Row>
-			<Row flex='auto'style={{ background: '#1e1f24', width: '100%', margin: 0 }}>
+			<Row flex='auto'style={{ background: '#0F0E0E', width: '100%', margin: 0 }}>
 				<Col flex='auto'>1 1 200px</Col>
 				<Col flex='auto'>0 1 300px</Col>
 			</Row>

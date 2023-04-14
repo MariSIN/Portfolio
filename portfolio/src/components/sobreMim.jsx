@@ -1,11 +1,13 @@
-import { Card, Col, Divider, Image, Row, Typography } from 'antd';
-import { Content } from 'antd/es/layout/layout';
+import { Col, Image, Row, Typography } from 'antd';
 import mariana from '../img/Mariana.png';
+import Cards from './cards';
 
 function SobreMim() {
 	return (
 		<>
-			<Row justify='middle'>
+			<Row
+				justify='middle'
+				style={{ height: '80vh' }}>
 				<Col
 					flex={4}
 					align='middle'>
@@ -13,9 +15,8 @@ function SobreMim() {
 						level={2}
 						style={{
 							textAlign: 'center',
-							filter: 'drop-shadow(1px 1px 12px #b37feb)',
-							fontFamily: 'Bad Script',
-							color: '#8046EB',
+							fontFamily: 'Dancing Script',
+							color: '#69707a',
 							letterSpacing: '2px',
 						}}>
 						Mariana Nascimento
@@ -23,10 +24,10 @@ function SobreMim() {
 					<Image
 						src={mariana}
 						alt='mariana'
-						width={350}
+						width={400}
 						style={{
 							borderRadius: '15px',
-							boxShadow: '1px 1px 10px #2E1C6B',
+							boxShadow: '8px 8px 0 #5d6b76',
 							transform: 'skew(-5.5deg) scale(1)',
 							transformOrigin: 'left top',
 						}}
@@ -37,9 +38,7 @@ function SobreMim() {
 						level={1}
 						style={{
 							textAlign: 'left',
-							fontFamily: 'Edu TAS Beginner',
-							filter: 'drop-shadow(1px 1px 25px #b37feb)',
-							color: '#8A4BEB',
+							color: '#c3cad2',
 							letterSpacing: '1.5px',
 						}}>
 						Desenvolvedora
@@ -48,73 +47,28 @@ function SobreMim() {
 				</Col>
 			</Row>
 			<Row
-				style={{ marginTop: '80px' }}
+				style={{ marginTop: 80, marginBottom: 40 }}
 				justify='space-evenly'>
 				<Col
 					flex='auto'
-					align='middle'>
-					<Typography.Title
-						level={3}
-						style={{ color: '#D4CFE8' }}>
-						EXPE
-						<br />
-						RIÊN
-						<br />
-						CIA
-					</Typography.Title>
-				</Col>
-				<Col flex='800px'>
-					<Content>
-						<Typography.Text style={{ letterSpacing: '0.8px' }}>
-							Em 2022 passei por uma transição de carreira e hoje sou
-							desenvolvedora fullstack. <br />
-							Possuo projetos em:Javascript, React.js, Typescript e Node.js.{' '}
-							<br />
-							Estou constantemente aprendendo mais sobre:
-							<br />
-							Javascript, Typescript, React, node.js, ux/ui design, testes de
-							integração, testes unitários, CSS e também estou em busca de
-							aprender novas tecnologias.
-						</Typography.Text>
-                        <br />
-						<a href='https://github.com/MariSIN/recipe-app'>
-							<Card
-								title='App de Receitas'
-								bordered={false}
-								style={{
-									width: 500,
-									marginTop: 40,
-									color: '#8674A8',
-								}}>
-                                
-								<p style={{ fontSize: 14 }}>
-									Este projeto é um app de receitas que foi desenvolvido em
-									grupo e com React: Hooks e Context API A base de dados são 2 APIs
-									distintas, uma para comidas e outra para bebidas. O layout tem
-									como foco dispositivos móveis, mas tem design responsivo para
-									telas maiores também.
-								</p>
-							</Card>
-						</a>
-					</Content>
+					align='middle'
+					style={{ position: 'relative' }}>
+						<Typography.Title
+						className='experiencia'
+							level={3}
+							style={{ color: '#4f5d6a', textAlign: 'center' }}>
+							PROJETOS
+						</Typography.Title>
 				</Col>
 			</Row>
-			<Divider orientation='left'>Raw flex style</Divider>
 			<Row>
-				<Col flex='1 1 200px'>1 1 200px</Col>
-				<Col flex='0 1 300px'>0 1 300px</Col>
-			</Row>
-
-			<Row wrap={false}>
-				<Col flex='none'>
-					<div
-						style={{
-							padding: '0 16px',
-						}}>
-						none
-					</div>
+				<Col flex='auto' align='middle'>
+					<Cards />
 				</Col>
-				<Col flex='auto'>auto with no-wrap</Col>
+			</Row>
+			<Row flex='auto'style={{ background: '#1e1f24', width: '100%', margin: 0 }}>
+				<Col flex='auto'>1 1 200px</Col>
+				<Col flex='auto'>0 1 300px</Col>
 			</Row>
 		</>
 	);

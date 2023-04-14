@@ -1,0 +1,11 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 300px;
+	width: 600px;
+	margin-top: 40px;
+	color: #a1aab7;
+    background: linear-gradient(to bottom, rgba(5, 11, 23, 0.83), #28323bcd);
+}
+

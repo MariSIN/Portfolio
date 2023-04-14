@@ -20,12 +20,15 @@ export default function cards() {
 				style={{
 					display: 'flex',
 					justifyContent: 'space-evenly',
+                    gap: 40
 				}}>
 				<Col>
 					<Card
 						title='App de Receitas'
 						bordered={false}
-						className='card'>
+						className='card'
+                        headStyle={{ borderBottom: '2px solid #fd92aecd' }}
+                        >
 						<p style={{ fontSize: 15, marginBottom: '20px' }}>
 							Este projeto é um app de receitas que foi desenvolvido em grupo. O
 							layout tem como foco dispositivos móveis, mas tem design
@@ -54,6 +57,7 @@ export default function cards() {
 					<Card
 						title='Trivia'
 						bordered={false}
+                        headStyle={{ borderBottom: '2px solid #fd92aecd' }}
 						className='card'>
 						<p style={{ fontSize: 15, marginBottom: '20px' }}>
 							Este projeto é um jogo de perguntas e respostas baseado no jogo
@@ -81,6 +85,7 @@ export default function cards() {
 				<Col>
 					<Card
 						title='Shopping Cart'
+                        headStyle={{ borderBottom: '2px solid #fd92aecd' }}
 						bordered={false}
 						className='card'>
 						<p style={{ fontSize: 15, marginBottom: '20px' }}>
@@ -110,6 +115,7 @@ export default function cards() {
 				<Col>
 					<Card
 						title='Trybesmith'
+                        headStyle={{ borderBottom: '2px solid #fd92aecd' }}
 						bordered={false}
 						className='card'>
 						<p style={{ fontSize: 15, marginBottom: '20px' }}>
@@ -139,6 +145,7 @@ export default function cards() {
 				<Col>
 					<Card
 						title='Trybers and Dragons'
+                        headStyle={{ borderBottom: '2px solid #fd92aecd' }}
 						bordered={false}
 						className='card'>
 						<p style={{ fontSize: 15, marginBottom: '20px' }}>
@@ -169,6 +176,7 @@ export default function cards() {
 				<Col>
 					<Card
 						title='Trybers and Dragons'
+                        headStyle={{ borderBottom: '2px solid #fd92aecd' }}
 						bordered={false}
 						className='card'>
 						<p style={{ fontSize: 15, marginBottom: '20px' }}>
@@ -198,6 +206,7 @@ export default function cards() {
 				<Col>
 					<Card
 						title='Blogs API'
+                        headStyle={{ borderBottom: '2px solid #fd92aecd' }}
 						bordered={false}
 						className='card'>
 						<p style={{ fontSize: 15, marginBottom: '20px' }}>

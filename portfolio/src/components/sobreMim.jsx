@@ -16,7 +16,7 @@ function SobreMim() {
 						style={{
 							textAlign: 'center',
 							fontFamily: 'Dancing Script',
-							color: '#69707a',
+							color: '#F0396A',
 							letterSpacing: '2px',
 						}}>
 						Mariana Nascimento
@@ -27,7 +27,7 @@ function SobreMim() {
 						width={400}
 						style={{
 							borderRadius: '15px',
-							boxShadow: '8px 8px 0 #5d6b76',
+							boxShadow: '8px 8px 0 #fd92aecd',
 							transform: 'skew(-5.5deg) scale(1)',
 							transformOrigin: 'left top',
 						}}
@@ -38,7 +38,7 @@ function SobreMim() {
 						level={1}
 						style={{
 							textAlign: 'left',
-							color: '#c3cad2',
+							color: '#F0396A',
 							letterSpacing: '1.5px',
 						}}>
 						Desenvolvedora
@@ -56,7 +56,7 @@ function SobreMim() {
 						<Typography.Title
 						className='experiencia'
 							level={3}
-							style={{ color: '#4f5d6a', textAlign: 'center' }}>
+							style={{ color: '#63474fcd', textAlign: 'center' }}>
 							PROJETOS
 						</Typography.Title>
 				</Col>

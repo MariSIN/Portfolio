@@ -4,16 +4,16 @@ import SobreMim from './components/sobreMim';
 const { Header, Content, Footer } = Layout;
 
 const config = {
-	colorPrimary: '#470a0a',
-	colorTextBase: '#cdcfce',
-	colorTextHeading: '#ecedf0',
+	colorPrimary: '#F0396A',
+	colorTextBase: '#ADA4A6',
+	colorTextHeading: '#fd92aecd',
 	fontSizeHeading1: '70px',
 	fontSizeHeading2: '40px',
 	fontSizeHeading3: '100px',
 	fontFamily: 'Raleway',
 	fontSize: '20px',
-	colorLink: '#55707b', 
-	colorLinkHover: '#c3cad2'
+	colorLink: '#EB91A9', 
+	colorLinkHover: '#FFD8E2'
 };
 
 function App() {
@@ -29,7 +29,7 @@ function App() {
 						top: 0,
 						zIndex: 1,
 						width: '100%',
-						background: '#050b17',
+						background: '#0B0003',
 					}}>
 					<div
 						style={{
@@ -44,7 +44,7 @@ function App() {
 						theme='dark'
 						mode='horizontal'
 						defaultSelectedKeys={['2']}
-						style={{ background: '#050b17', color: '#f2f2f2' }}>
+						style={{ background: '#0B0003', color: '#ADA4A6' }}>
 						<Menu.Item key='1'>Projetos</Menu.Item>
 						<Menu.Item key='2'>Formação</Menu.Item>
 						<Menu.Item key='3'>Contato</Menu.Item>
@@ -58,7 +58,7 @@ function App() {
 					<div
 						style={{
 							minHeight: 380,
-							background: '#272d39',
+							background: '#201d1e',
 						}}>
 						<SobreMim />
 					</div>

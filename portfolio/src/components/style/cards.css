@@ -42,3 +42,7 @@
 .ant-list-header div {
 	color: #f4235be2;
 }
+
+.ant-row {
+	margin-bottom: 40px;
+}

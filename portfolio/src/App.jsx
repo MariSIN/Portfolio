@@ -1,4 +1,5 @@
 import { ConfigProvider, Layout, Menu } from 'antd';
+import Contato from './components/contato';
 import SobreMim from './components/sobreMim';
 
 const { Header, Content, Footer } = Layout;
@@ -12,15 +13,15 @@ const config = {
 	fontSizeHeading3: '100px',
 	fontFamily: 'Raleway',
 	fontSize: '20px',
-	colorLink: '#EB91A9', 
-	colorLinkHover: '#FFD8E2'
+	colorLink: '#EB91A9',
+	colorLinkHover: '#FFD8E2',
 };
 
 function App() {
 	return (
 		<ConfigProvider
 			theme={{
-				token: { ...config,  },
+				token: { ...config },
 			}}>
 			<Layout>
 				<Header
@@ -68,7 +69,7 @@ function App() {
 						textAlign: 'center',
 						background: 'black',
 					}}>
-					Ant Design ©2023 Created by Ant UED
+					<Contato />
 				</Footer>
 			</Layout>
 		</ConfigProvider>

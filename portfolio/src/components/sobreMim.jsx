@@ -1,6 +1,7 @@
 import { Col, Image, Row, Typography } from 'antd';
 import mariana from '../img/Mariana.png';
 import Cards from './cards';
+import Formação from './formação';
 
 function SobreMim() {
 	return (
@@ -46,29 +47,19 @@ function SobreMim() {
 					</Typography.Title>
 				</Col>
 			</Row>
-			<Row
-				style={{ marginTop: 80, marginBottom: 40 }}
-				justify='space-evenly'>
+			<Row>
 				<Col
 					flex='auto'
-					align='middle'
-					style={{ position: 'relative' }}>
-						<Typography.Title
-						className='experiencia'
-							level={3}
-							style={{ color: '#63474fcd', textAlign: 'center' }}>
-							PROJETOS
-						</Typography.Title>
-				</Col>
-			</Row>
-			<Row>
-				<Col flex='auto' align='middle'>
+					align='middle'>
 					<Cards />
 				</Col>
 			</Row>
-			<Row flex='auto'style={{ background: '#0F0E0E', width: '100%', margin: 0 }}>
-				<Col flex='auto'>1 1 200px</Col>
-				<Col flex='auto'>0 1 300px</Col>
+			<Row
+				flex='auto'
+				style={{ background: '#131212', width: '100%', margin: 0 }}>
+				<Col flex='auto'>
+					<Formação />
+				</Col>
 			</Row>
 		</>
 	);

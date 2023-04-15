@@ -1,23 +1,30 @@
 <h1 align="center">
-  💻<br>Portfólio - Mariana Nascimento
+  <br>💻 Portfólio - Mariana Nascimento
 </h1>
 
-![Resultado final do projeto](https://raw.githubusercontent.com/MariSIN/MariSIN.github.io/4fd1d486c5c17b74f94c39af82303d10a40f5272/projeto-final.png)
+<strong>visite meu site: https://marisin.github.io/Portfolio/ </strong>
+
+<p>Bem-vindo ao meu portfólio! Aqui você encontrará alguns dos meus projetos recentes e informações sobre a minha formação e habilidades.</p>
 
 <h4 align="center"><a href="">Clique para visitar o projeto</a></h4>
 
 ## 📚 Seções
 
-O site é composto por cinco seções:
+<details><summary>O site é composto por cinco seções:</summary>
 
-- **Projetos:** Apresenta alguns projetos desenvolvidos e com link direto para os respectivos códigos no GitHub;
-- **Formção:** Exibe a área na qual sou formada;
-- **Contato:** Indica por onde você pode entrar em contato comigo;
+<h2>🚀 Projetos</h2>
+    <p>Apresenta alguns projetos desenvolvidos e com link direto para os respectivos códigos no GitHub.</p>
+<h2>🎓 Formação<h2>
+    <p>Exibo a área na qual sou formada e outras formações complementares que tenho para aprimorar as minhas habilidades.</p>
+<h2>📞 Contato<h2>
+  <p>Entre em contato comigo através dos meios apresentados nesta seção, fique a vontade para me enviar uma mensagem.</p>
+ 
+</details>
 
 ---
 
-## 💼 Tecnologias utilizadas
-
+<h2>💻 Tecnologias Utilizadas </h2>
+  
 Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 
 - CSS;

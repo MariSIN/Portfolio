@@ -4,7 +4,7 @@
 
 ![Resultado final do projeto](https://raw.githubusercontent.com/MariSIN/MariSIN.github.io/4fd1d486c5c17b74f94c39af82303d10a40f5272/projeto-final.png)
 
-<h4 align="center"><a href="https://www.iuricode.com/">Clique para visitar o projeto</a></h4>
+<h4 align="center"><a href="">Clique para visitar o projeto</a></h4>
 
 ## 📚 Seções
 

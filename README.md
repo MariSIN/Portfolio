@@ -2,11 +2,9 @@
   <br>💻 Portfólio - Mariana Nascimento
 </h1>
 
-<strong>visite meu site: https://marisin.github.io/Portfolio/ </strong>
-
 <p>Bem-vindo ao meu portfólio! Aqui você encontrará alguns dos meus projetos recentes e informações sobre a minha formação e habilidades.</p>
 
-<h4 align="center"><a href="">Clique para visitar o projeto</a></h4>
+<h4 align="center"><a href=" https://marisin.github.io/Portfolio/">Clique para visitar o projeto</a></h4>
 
 ## 📚 Seções
 

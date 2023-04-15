@@ -2,7 +2,7 @@
   💻<br>Portfólio - Mariana Nascimento
 </h1>
 
-![Resultado final do projeto](assets/image/preview.png)
+![Resultado final do projeto](https://github.com/MariSIN/repository/blob/main/images/projeto-final.png)
 
 <h4 align="center"><a href="https://www.iuricode.com/">Clique para visitar o projeto</a></h4>
 

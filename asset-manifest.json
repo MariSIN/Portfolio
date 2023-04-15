@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.eedcfb5c.css",
+    "main.js": "/Portfolio/static/js/main.b006a31b.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Mariana.png": "/Portfolio/static/media/Mariana.4539d5367ad2b13e7697.png",
+    "index.html": "/Portfolio/index.html",
+    "main.eedcfb5c.css.map": "/Portfolio/static/css/main.eedcfb5c.css.map",
+    "main.b006a31b.js.map": "/Portfolio/static/js/main.b006a31b.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eedcfb5c.css",
+    "static/js/main.b006a31b.js"
+  ]
+}

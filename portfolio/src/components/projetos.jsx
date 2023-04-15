@@ -12,12 +12,13 @@ const data = {
 	BlogsAPI: ['CRUD', 'Sequelize', 'Docker'],
 };
 
-export default function cards() {
+export default function Projetos() {
 	return (
 		<Content>
 			<Row
 				style={{ marginTop: 80, marginBottom: 40 }}
-				justify='space-evenly'>
+				justify='space-evenly'
+				id='section1'>
 				<Col
 					flex='auto'
 					align='middle'

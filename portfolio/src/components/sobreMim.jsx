@@ -1,7 +1,8 @@
 import { Col, Image, Row, Typography } from 'antd';
+import { BsCircleFill, BsFillSuitHeartFill } from 'react-icons/bs';
 import mariana from '../img/Mariana.png';
-import Cards from './cards';
 import Formação from './formação';
+import Projetos from './projetos';
 
 function SobreMim() {
 	return (
@@ -19,8 +20,18 @@ function SobreMim() {
 							fontFamily: 'Dancing Script',
 							color: '#F0396A',
 							letterSpacing: '2px',
+							position: 'relative',
 						}}>
-						Mariana Nascimento
+						Mariana Nascimento{' '}
+						<BsFillSuitHeartFill
+							style={{
+								position: 'absolute',
+								left: 620,
+								bottom: 20,
+								rotate: '55deg',
+								fontSize: 20,
+							}}
+						/>
 					</Typography.Title>
 					<Image
 						src={mariana}
@@ -41,7 +52,28 @@ function SobreMim() {
 							textAlign: 'left',
 							color: '#F0396A',
 							letterSpacing: '1.5px',
+							position: 'relative',
+							zIndex: 1,
 						}}>
+						<BsCircleFill
+							style={{
+								position: 'absolute',
+								right: 210,
+								bottom: 140,
+								fontSize: 50,
+								color: 'pink',
+								zIndex: -1,
+							}}
+						/>
+						<BsCircleFill
+							style={{
+								position: 'absolute',
+								right: 230,
+								fontSize: 90,
+								color: 'EB91A9',
+								zIndex: -1,
+							}}
+						/>
 						Desenvolvedora
 						<br /> Web FullStack
 					</Typography.Title>
@@ -51,7 +83,7 @@ function SobreMim() {
 				<Col
 					flex='auto'
 					align='middle'>
-					<Cards />
+					<Projetos />
 				</Col>
 			</Row>
 			<Row

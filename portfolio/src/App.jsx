@@ -1,4 +1,5 @@
 import { ConfigProvider, Layout, Menu } from 'antd';
+import { BsFillSuitHeartFill } from 'react-icons/bs';
 import Contato from './components/contato';
 import SobreMim from './components/sobreMim';
 
@@ -33,22 +34,41 @@ function App() {
 						background: '#0B0003',
 					}}>
 					<div
+						align='middle'
 						style={{
 							float: 'left',
 							width: 120,
 							height: 31,
-							margin: '16px 24px 16px 0',
-							background: 'rgba(255, 255, 255, 0.2)',
-						}}
-					/>
+						}}>
+						<span
+							style={{
+								fontFamily: 'Dancing Script',
+								color: '#F0396A',
+								fontSize: 50,
+							}}>
+							M
+							<BsFillSuitHeartFill
+								style={{
+									rotate: '40deg',
+									fontSize: 15,
+								}}
+							/>
+						</span>
+					</div>
 					<Menu
 						theme='dark'
 						mode='horizontal'
 						defaultSelectedKeys={['2']}
 						style={{ background: '#0B0003', color: '#ADA4A6' }}>
-						<Menu.Item key='1'>Projetos</Menu.Item>
-						<Menu.Item key='2'>Formação</Menu.Item>
-						<Menu.Item key='3'>Contato</Menu.Item>
+						<Menu.Item key='1'>
+							<a href='#section1'>Projetos</a>
+						</Menu.Item>
+						<Menu.Item key='2'>
+							<a href='#section2'>Formação</a>
+						</Menu.Item>
+						<Menu.Item key='3'>
+							<a href='#section3'>Contato</a>
+						</Menu.Item>
 					</Menu>
 				</Header>
 				<Content

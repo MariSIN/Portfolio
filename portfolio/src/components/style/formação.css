@@ -1,0 +1,14 @@
+.ant-row {
+    gap: 40px;
+}
+
+.ant-col {
+    margin-top: 40px;
+}
+
+
+.ant-typography {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}

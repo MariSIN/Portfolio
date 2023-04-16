@@ -6,9 +6,14 @@
     margin-top: 40px;
 }
 
+div .ant-card {
+    width: 300;
+    background-color: #010101;
+}
 
 .ant-typography {
     display: flex;
     flex-direction: column;
     text-align: left;
 }
+

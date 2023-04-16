@@ -11,8 +11,8 @@
 }
 
 .card:hover {
-	transform: translateY(-10px);
-	box-shadow: 4px 3px 0px #f4235a;
+	transform: translate(-10px, -10px);
+	box-shadow: 4px 4px 0px #f4235a;
 }
 
 .ant-card-head-title {

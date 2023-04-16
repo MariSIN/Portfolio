@@ -22,18 +22,17 @@ function SobreMim() {
 							letterSpacing: '2px',
 							position: 'relative',
 						}}>
-						<div>
+						<span>
 							Mariana Nascimento
 							<BsFillSuitHeartFill
 								style={{
-									position: 'absolute',
-									left: 620,
+									left: 680,
 									bottom: 20,
 									rotate: '55deg',
 									fontSize: 20,
 								}}
 							/>
-						</div>
+						</span>
 					</Typography.Title>
 					<Image
 						src={mariana}
@@ -52,32 +51,25 @@ function SobreMim() {
 							textAlign: 'left',
 							color: '#F0396A',
 							letterSpacing: '1.5px',
-							position: 'relative',
 							zIndex: 1,
+							position: 'relative',
 						}}>
-						<div>
+						Desenvolvedora
+						<br /> Web FullStack
+						<span style={{ position: 'absolute', zIndex: -1, right: 235  }}>
 							<BsCircleFill
 								style={{
-									position: 'absolute',
-									right: 210,
-									bottom: 140,
-									fontSize: 50,
-									color: 'pink',
-									zIndex: -1,
-								}}
-							/>
-							<BsCircleFill
-								style={{
-									position: 'absolute',
-									right: 230,
 									fontSize: 90,
 									color: 'EB91A9',
-									zIndex: -1,
 								}}
 							/>
-							Desenvolvedora
-							<br /> Web FullStack
-						</div>
+							<BsCircleFill
+								style={{
+									fontSize: 50,
+									color: 'pink',
+								}}
+							/>
+						</span>
 					</Typography.Title>
 				</Col>
 			</Row>

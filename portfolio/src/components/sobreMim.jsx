@@ -22,16 +22,18 @@ function SobreMim() {
 							letterSpacing: '2px',
 							position: 'relative',
 						}}>
-						Mariana Nascimento{' '}
-						<BsFillSuitHeartFill
-							style={{
-								position: 'absolute',
-								left: 620,
-								bottom: 20,
-								rotate: '55deg',
-								fontSize: 20,
-							}}
-						/>
+						<div>
+							Mariana Nascimento
+							<BsFillSuitHeartFill
+								style={{
+									position: 'absolute',
+									left: 620,
+									bottom: 20,
+									rotate: '55deg',
+									fontSize: 20,
+								}}
+							/>
+						</div>
 					</Typography.Title>
 					<Image
 						src={mariana}
@@ -40,8 +42,6 @@ function SobreMim() {
 						style={{
 							borderRadius: '15px',
 							boxShadow: '8px 8px 0 #fd92aecd',
-							transform: 'skew(-5.5deg) scale(1)',
-							transformOrigin: 'left top',
 						}}
 					/>
 				</Col>
@@ -55,27 +55,29 @@ function SobreMim() {
 							position: 'relative',
 							zIndex: 1,
 						}}>
-						<BsCircleFill
-							style={{
-								position: 'absolute',
-								right: 210,
-								bottom: 140,
-								fontSize: 50,
-								color: 'pink',
-								zIndex: -1,
-							}}
-						/>
-						<BsCircleFill
-							style={{
-								position: 'absolute',
-								right: 230,
-								fontSize: 90,
-								color: 'EB91A9',
-								zIndex: -1,
-							}}
-						/>
-						Desenvolvedora
-						<br /> Web FullStack
+						<div>
+							<BsCircleFill
+								style={{
+									position: 'absolute',
+									right: 210,
+									bottom: 140,
+									fontSize: 50,
+									color: 'pink',
+									zIndex: -1,
+								}}
+							/>
+							<BsCircleFill
+								style={{
+									position: 'absolute',
+									right: 230,
+									fontSize: 90,
+									color: 'EB91A9',
+									zIndex: -1,
+								}}
+							/>
+							Desenvolvedora
+							<br /> Web FullStack
+						</div>
 					</Typography.Title>
 				</Col>
 			</Row>

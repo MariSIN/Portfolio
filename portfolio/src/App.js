@@ -29,7 +29,7 @@ function App() {
 					style={{
 						position: 'sticky',
 						top: 0,
-						zIndex: 1,
+						zIndex: 3,
 						width: '100%',
 						background: '#0B0003',
 					}}>
